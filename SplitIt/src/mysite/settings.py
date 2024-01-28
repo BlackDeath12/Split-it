@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     #myApps
     'personal',
     'account',
+    'split',
 
     #default apps
     'django.contrib.admin',

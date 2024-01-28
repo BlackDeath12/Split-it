@@ -22,6 +22,7 @@ from personal.views import payment_screen_view
 from account.views import registration_view
 from account.views import logout_view
 from account.views import login_view
+from split.views import form_checkbox
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,5 +30,6 @@ urlpatterns = [
     path('payments', payment_screen_view, name='payment'),
     path('register', registration_view, name='register'),
     path('logout', logout_view, name='logout'),
-    path('login', login_view, name='login')
+    path('login', login_view, name='login'),
+    path('split', form_checkbox, name='split')
 ]
