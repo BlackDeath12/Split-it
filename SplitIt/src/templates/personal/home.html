@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div style="border: 2px solid #000; text-align: center;">
+    <h1>This is the new body</h1>
+    <p>This is where you put stuff for your website</p>
+
+    {{some_string}}
+
+    {% for question in questions %}
+        {% include 'personal/snippets/body_snippet.html' with value=question %}
+    {% endfor %}
+
+</div>
+
+{% endblock content %}
