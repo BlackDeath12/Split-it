@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="../public/global1.css" />
+    <link rel="stylesheet" href="./receipt-landing.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Code Pro:wght@600&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "SF Pro Display";
+        src: url("../public/FontsFree-Net-SFProDisplay-Bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "The Next Font";
+        src: url("../TheNextFont.ttf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="receipt-landing">
+      <img class="back-blue-icon1" alt="" src="../public/back-blue.svg" />
+
+      <div class="main-container">
+        <div class="splitter-parent">
+          <div class="splitter">
+            <b class="split-it">Split It.</b>
+          </div>
+          <div class="restaurant-info">
+            <div class="fish-chips">Fish & Chips Restaurant</div>
+            <div class="gilman-dr-cypress">
+              1979 Gilman Dr. Cypress, CA, 90630
+            </div>
+          </div>
+          <div class="order-frame">
+            <div class="order-list">
+              <div class="order-96">Order: 96</div>
+              <div class="next-button">
+                <div class="host-justin">Host: Justin</div>
+              </div>
+            </div>
+            <div class="order-list1">
+              <div class="div">01/27/2024</div>
+              <div class="pm-wrapper">
+                <div class="pm">12:16 PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="items-button">
+          <div class="item-buttons-frame">
+            <nav class="items">
+              <div>
+                <div class="btext2">Fish & Chips Set</div>
+              </div>
+              <div>
+                <div class="btext3">Fish Salad</div>
+              </div>
+              <div>
+                <div class="btext4">Lg Fries</div>
+              </div>
+              <div>
+                <div class="btext5">Sprite</div>
+              </div>
+            </nav>
+            <div class="total-balance-frame">
+              <div class="subtotal-parent">
+                <div class="subtotal">
+                  <div class="subtotal1">SUBTOTAL</div>
+                  <div class="tax">TAX</div>
+                </div>
+                <div class="total-balance">TOTAL BALANCE</div>
+              </div>
+            </div>
+          </div>
+          <div class="item-buttons-frame1">
+            <div class="button-parent">
+              <button class="button10", onclick="animateButtonClick(this)">
+                <div class="button11" id = "child1">$17.98</div>
+              </button>
+              <button class="button12", onclick="animateButtonClick(this)">
+                <div class="button11" id = "child2">$12.99</div>
+              </button>
+              <button class="button14", onclick="animateButtonClick(this)">
+                <div class="button11" id = "child3">$3.99</div>
+              </button>
+              <button class="button16", onclick="animateButtonClick(this)">
+                <div class="button11" id = "child4">$5.22</div>
+              </button>
+            </div>
+            <div class="item-buttons-frame-inner">
+              <div class="frame-parent">
+                <div class="parent">
+                  <div class="div1">$40.18</div>
+                  <div class="div2">$2.91</div>
+                </div>
+                <div class="div3">$43.09</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button18">
+        <button class="Verify" id="buttonContainer" onclick="Nextpage()">
+          <div class="button20">Verify Selections</div>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      function animateButtonClick(clickedbutton) {
+        clickedbutton.classList.toggle('clicked');
+      }
+      function Nextpage(){
+        window.location.href = "../page4/ConfirmAndTip.html";
+      }
+    </script>
+  </body>
+</html>

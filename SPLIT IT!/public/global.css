@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-work-sans: "Work Sans";
+  --font-sf-pro-display: "SF Pro Display";
+  --font-the-next-font: "The Next Font";
+
+  /* font sizes */
+  --font-size-81xl: 100px;
+
+  /* Colors */
+  --typography-off-white: #f4f4f4;
+
+  /* Paddings */
+  --padding-25xl: 44px;
+  --padding-12xs: 1px;
+}

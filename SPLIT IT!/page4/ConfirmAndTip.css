@@ -1,0 +1,426 @@
+.back-blue-child {
+  position: absolute;
+  top: 21px;
+  left: 362.9px;
+  border-radius: 50%;
+  background-color: #a7aef9;
+  filter: blur(200px);
+  width: 338px;
+  height: 240.1px;
+}
+.vector {
+  position: absolute;
+  top: 0;
+  left: 127.9px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(167, 174, 249, 0.6) 0deg,
+    rgba(221, 204, 248, 0.6) 120deg,
+    rgba(245, 201, 217, 0.6) 240deg,
+    rgba(206, 187, 250, 0.6) 360deg
+  );
+  filter: blur(100px);
+  width: 551.9px;
+  height: 337.2px;
+  transform: rotate(21.03deg);
+  transform-origin: 0 0;
+}
+.back-blue-item,
+.vector-icon {
+  position: absolute;
+  object-fit: contain;
+}
+.back-blue-item {
+  top: 381.6px;
+  left: 76.4px;
+  width: 632.4px;
+  height: 630.4px;
+  opacity: 0.97;
+}
+.vector-icon {
+  top: 135.8px;
+  left: 0;
+  width: 613.7px;
+  height: 643.6px;
+}
+.back-blue {
+  position: absolute;
+  top: -83px;
+  left: -150.8px;
+  width: 708.8px;
+  height: 1012px;
+}
+.split-it {
+  margin: 0;
+  position: absolute;
+  top: 53px;
+  left: 112px;
+  font-size: 52.5px;
+  font-weight: 700;
+  font-family: "SF Pro Display";
+  background: linear-gradient(180deg, #5f6ee7, #6f65e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fish-chips,
+.gilman-dr-cypress {
+  align-self: stretch;
+  position: relative;
+  line-height: 39.08px;
+  font-weight: 600;
+}
+.gilman-dr-cypress {
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: -9px;
+}
+.restaurant {
+  position: absolute;
+  top: 137px;
+  left: 35px;
+  width: 324px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+.host-justin,
+.order-96 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.host-justin {
+  margin-top: -2px;
+}
+.order-96-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div,
+.pm {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.pm {
+  margin-top: -2px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.order-details {
+  position: absolute;
+  top: 211px;
+  left: 35px;
+  width: 324px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.x-fish {
+  width: 200px;
+  position: relative;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-wrapper,
+.x-fish-chips-set-wrapper {
+  width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+}
+.button3 {
+  position: relative;
+  line-height: 28.19px;
+  font-weight: 600;
+}
+.button2 {
+  width: 65px;
+  border-radius: 8.38px;
+  background: linear-gradient(90deg, #4776e6, #8e54e9);
+  box-shadow: 0 3.8px 7.62px rgba(149, 149, 149, 0.2);
+  height: 36px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3.139047622680664px 8.380952835083008px;
+  box-sizing: border-box;
+}
+.button-wrapper,
+.button2,
+.frame-parent {
+  display: flex;
+  align-items: center;
+}
+.button-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: 14.4px;
+  color: #f4f4f4;
+}
+.frame-parent {
+  position: absolute;
+  top: 342px;
+  left: 39px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+  font-size: 17px;
+}
+.x-sprite {
+  position: relative;
+  line-height: 22px;
+}
+.x-sprite-wrapper {
+  width: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button5 {
+  position: relative;
+  line-height: 28.19px;
+  font-weight: 600;
+}
+.button4,
+.frame-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button4 {
+  width: 65px;
+  border-radius: 8.38px;
+  background: linear-gradient(90deg, #4776e6, #8e54e9);
+  box-shadow: 0 3.8px 7.62px rgba(149, 149, 149, 0.2);
+  height: 36px;
+  justify-content: center;
+  padding: 3.139047622680664px 8.380952835083008px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14.4px;
+  color: #f4f4f4;
+}
+.frame-group {
+  position: absolute;
+  top: 397px;
+  left: 43px;
+  width: 311px;
+  justify-content: flex-start;
+  gap: 159px;
+  font-size: 17px;
+}
+.your-items {
+  position: relative;
+  background: linear-gradient(180deg, #5f6ee7, #6f65e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.your-items-wrapper {
+  position: absolute;
+  top: 285px;
+  left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Display";
+}
+.balance,
+.subtotal,
+.tax {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.balance,
+.tax {
+  margin-top: -2px;
+}
+.subtotal-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1,
+.div2,
+.div3 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.div2,
+.div3 {
+  margin-top: -2px;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.order-details1 {
+  position: absolute;
+  top: 450px;
+  left: 39px;
+  width: 324px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 194px;
+  font-size: 15px;
+}
+.button6 {
+  position: relative;
+  line-height: 22.7px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #4776e6, #8e54e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fish-salad-white {
+  border-radius: 6.8px;
+  background-color: #fff;
+  border: 1.8px solid #4776e6;
+  box-sizing: border-box;
+  height: 27.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2.547548294067383px 6.8012614250183105px;
+}
+
+.fish-salad-white-parent,
+.fish-salad-white4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fish-salad-white4 {
+  width: 268px;
+  border-radius: 6.8px;
+  background-color: #fff;
+  border: 1.8px solid #4776e6;
+  box-sizing: border-box;
+  height: 28px;
+  padding: 2.547548294067383px 6.8012614250183105px;
+}
+.fish-salad-white-parent {
+  position: absolute;
+  top: 584px;
+  left: 35px;
+  width: 331.8px;
+  flex-wrap: wrap;
+  gap: 6px;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+}
+.b,
+.your-total {
+  position: relative;
+  background: linear-gradient(180deg, #5f6ee7, #6f65e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.b {
+  font-size: 25px;
+}
+.your-total-parent {
+  position: absolute;
+  top: 687px;
+  left: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 97px;
+  font-family: "SF Pro Display";
+}
+.add-a-tip {
+  position: relative;
+  background: linear-gradient(180deg, #5f6ee7, #6f65e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.add-a-tip-wrapper {
+  position: absolute;
+  top: 527px;
+  left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Pro Display";
+}
+.button12 {
+  position: relative;
+  line-height: 37px;
+  font-weight: 600;
+}
+.button11 {
+  width: 287px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #4776e6, #8e54e9);
+  box-shadow: 0 5px 10px rgba(149, 149, 149, 0.2);
+  height: 47.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 64px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.button-container {
+  position: absolute;
+  top: 758.1px;
+  left: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #f4f4f4;
+  font-family: "Work Sans";
+}
+.confirm-and-tip {
+  width: 100%;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  font-family: "Source Code Pro";
+}
+.clicked{
+  
+}

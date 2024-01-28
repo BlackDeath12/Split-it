@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./Payment.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Code Pro:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Product Sans Medium:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "SF Pro Text";
+        src: url("../public/SourceCodePro-Semibold.ttf");
+        font-weight: 600;
+      }
+      @font-face {
+        font-family: "SF Pro Display";
+        src: url("../public/FontsFree-Net-SFProDisplay-Bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "The Next Font";
+        src: url("../public/TheNextFont.ttf");
+        font-weight: 400;
+      }
+      body {
+        margin: 0;
+        line-height: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="payment">
+      <img class="back-blue-icon1" alt="" src="../public/back-blue.svg" />
+
+      <div class="text">
+        <b class="split-it2">Split It.</b>
+      </div>
+      <div class="payment-child"></div>
+      <div class="apple-pay-button">
+        <div class="pay-with">Pay with</div>
+        <div class="pay">Pay</div>
+      </div>
+      <div class="google-pay-button">
+        <div class="buy-with">Buy with</div>
+        <div class="logo">
+          <img
+            class="pay-typeface-3"
+            alt=""
+            src="../public/pay-typeface-3.svg"
+          />
+
+          <img class="g-mark-1" alt="" src="../public/g-mark-1.svg" />
+        </div>
+      </div>
+      <div class="apple-pay-button-parent">
+        <div class="apple-pay-button1">
+          <div class="pay-with1">Add Card</div>
+          <div class="pay1"></div>
+        </div>
+        <img class="payment-icons" alt="" src="../public/payment-icons@2x.png" />
+
+        <img
+          class="payment-icons1"
+          alt=""
+          src="../public/payment-icons1@2x.png"
+        />
+      </div>
+      <div class="button25" id="buttonContainer">
+        <div class="button26">Proceed to Payment</div>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "../page1/index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

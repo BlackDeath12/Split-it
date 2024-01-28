@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="../public/global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@600&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "SF Pro Display";
+        src: url("../public/FontsFree-Net-SFProDisplay-Bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "The Next Font";
+        src: url("../public/TheNextFont.ttf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home-page-v2">
+      <img class="back-blue-icon" alt="" src="../public/back-blue.svg" />
+
+      <h1 class="split">Split</h1>
+      <h1 class="it">It.</h1>
+    
+      <div class="frames-container">
+        <div class="sally-component">
+          <div class="wrapper-saly-14">
+            <img
+              class="saly-14-icon"
+              loading="eager"
+              alt=""
+              src="../public/sally.png"
+            />
+          </div>
+          <div class="button" id="buttonContainer">
+            <div>Split the Bill</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          // Please sync "Receipt Landing" to the project
+          window.location.href = "../page2/your-name.html";
+        });
+      }
+      </script>
+  </body>
+</html>

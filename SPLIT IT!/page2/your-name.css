@@ -1,0 +1,204 @@
+.back-blue-icon1 {
+  width: 853.6px;
+  position: absolute;
+  margin: 0 !important;
+  right: -356.6px;
+  bottom: -117.1px;
+  height: 1058.1px;
+}
+.saly-14-icon1 {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: -18px;
+  transform: scale(1.074);
+}
+.wrapper-saly-141 {
+  width: 229.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: 75.3px;
+  bottom: 30px;
+  height: 492px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.but-first-type {
+  margin: 1;
+  height: 48px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #5f6ee7, #6f65e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.text {
+  position: absolute;
+  top: 149px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.split1 {
+  height: 99px;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(180deg, #8359e3, #4d74e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.it3 {
+  font-size: 82.7px;
+  font-family: "SF Pro Display";
+}
+.it2 {
+  align-self: stretch;
+  height: 99px;
+  position: relative;
+  background: linear-gradient(180deg, #7860e4, #5671e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  z-index: 1;
+}
+.it-text,
+.view-bill-instance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.view-bill-instance {
+  width: 88px;
+  flex-direction: column;
+  padding: 55px 0 0;
+  box-sizing: border-box;
+  min-width: 88px;
+  font-size: 91px;
+  font-family: "The Next Font";
+}
+.it-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  padding: 0 1px 0 0;
+  gap: 8px;
+  font-size: 82.7px;
+}
+.text-frame {
+  align-self: stretch;
+  height: 197px;
+  position: relative;
+}
+.button4 {
+  position: relative;
+  font-size: 27px;
+  line-height: inherit;
+  font-weight: 600;
+  font-family: "Work Sans";
+  background: linear-gradient(
+    90deg,
+    rgba(71, 118, 230, 0.5),
+    rgba(142, 84, 233, 0.5)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  border: transparent;
+  
+  
+}
+.button3 {
+  cursor: pointer;
+  border: 3px solid #4776e6;
+  padding: 1px;
+  background-color: #fff;
+  flex: 1;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(149, 149, 149, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  z-index: 1;
+}
+.button2,
+.text-frame-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button2 {
+  width: 219px;
+  flex-direction: column;
+  align-items:right;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+.text-frame-parent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: left;
+  gap: 50px;
+}
+.button5 {
+  position: relative;
+  line-height: 37px;
+  font-weight: 600;
+  font-size:larger;
+  font-family: inherit;
+  color: #fff;
+
+}
+.view-bill {
+  border-radius: 24px;
+  background: linear-gradient(90deg, #4776e6, #8e54e9);
+  box-shadow: 0 5px 10px rgba(149, 149, 149, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 63px 2px 62px;
+  z-index: 2;
+}
+.bill-view-instance,
+.your-name {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px 0 13px;
+  text-align: left;
+  font-size: 24px;
+  font-family: "Work Sans";
+}
+.your-name {
+  width: 100%;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 53px 95px 69px;
+  box-sizing: border-box;
+  gap: 409px;
+  text-align: center;
+  font-size: 40px;
+  color: #f4f4f4;
+  font-family: "SF Pro Display";
+}

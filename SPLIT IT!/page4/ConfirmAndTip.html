@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./ConfirmAndTip.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Code Pro:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Product Sans Medium:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "SF Pro Text";
+        src: url("../public/SourceCodePro-Semibold.ttf");
+        font-weight: 600;
+      }
+      @font-face {
+        font-family: "SF Pro Display";
+        src: url("../public/FontsFree-Net-SFProDisplay-Bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "The Next Font";
+        src: url("../public/TheNextFont.ttf");
+        font-weight: 400;
+      }
+      body {
+        margin: 0;
+        line-height: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="confirm-and-tip">
+      <div class="back-blue">
+        <div class="back-blue-child"></div>
+        <section class="vector"></section>
+        <img class="back-blue-item" alt="" src="../public/ellipse-4.svg" />
+
+        <img class="vector-icon" alt="" src="../public/vector.svg" />
+      </div>
+      <h1 class="split-it">Split It.</h1>
+      <div class="restaurant">
+        <div class="fish-chips">Fish & Chips Restaurant</div>
+        <div class="gilman-dr-cypress">1979 Gilman Dr. Cypress, CA, 90630</div>
+      </div>
+      <div class="order-details">
+        <div class="order-96-parent">
+          <div class="order-96">Order: 96</div>
+          <div class="host-justin">Host: Justin</div>
+        </div>
+        <div class="parent">
+          <div class="div">01/27/2024</div>
+          <div class="pm">12:16 PM</div>
+        </div>
+      </div>
+      <div class="frame-parent">
+        <div class="frame-wrapper">
+          <div class="x-fish-chips-set-wrapper">
+            <b class="x-fish">1x Fish & Chips Set</b>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <div class="button2">
+            <div class="button3">$17.98</div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-group">
+        <div class="x-sprite-wrapper">
+          <b class="x-sprite">1x Sprite</b>
+        </div>
+        <div class="button4">
+          <div class="button5">$2.61</div>
+        </div>
+      </div>
+      <div class="your-items-wrapper">
+        <b class="your-items">Your Items</b>
+      </div>
+      <div class="order-details1">
+        <div class="subtotal-parent">
+          <div class="subtotal">SUBTOTAL</div>
+          <div class="tax">TAX</div>
+          <div class="balance">BALANCE</div>
+        </div>
+        <div class="group">
+          <div class="div1">$20.59</div>
+          <div class="div2">$1.54</div>
+          <div class="div3">$22.13</div>
+        </div>
+      </div>
+      <div class="fish-salad-white-parent">
+        <div class="fish-salad-white">
+          <div class="button6">15% ($3.32)</div>
+        </div>
+        <div class="fish-salad-white">
+          <div class="button6">18% ($3.98)</div>
+        </div>
+        <div class="fish-salad-white">
+          <div class="button6">20% ($4.43)</div>
+        </div>
+        <div class="fish-salad-white">
+          <div class="button6">Other</div>
+        </div>
+        <div class="fish-salad-white4">
+          <div class="button6">Enter amount $</div>
+        </div>
+      </div>
+      <div class="your-total-parent">
+        <b class="your-total">Your Total</b>
+        <b class="b">$26.56</b>
+      </div>
+      <div class="add-a-tip-wrapper">
+        <b class="add-a-tip">Add a Tip?</b>
+      </div>
+      <div class="button-container">
+        <div class="button11" id="buttonContainer">
+          <div class="button12">Proceed to Payment</div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "../page5/payment.html";
+        });
+      }
+      </script>
+  </body>
+</html>

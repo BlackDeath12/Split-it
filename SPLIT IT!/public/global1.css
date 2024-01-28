@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-work-sans: "Work Sans";
+  --font-sf-pro-display: "SF Pro Display";
+  --font-the-next-font: "The Next Font";
+  --font-source-code-pro: "Source Code Pro";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-81xl: 100px;
+  --font-size-mini: 15px;
+  --font-size-mid-5: 17.5px;
+  --font-size-3xl-7: 22.7px;
+
+  /* Colors */
+  --color-white: #fff;
+  --typography-off-white: #f4f4f4;
+  --color-black: #000;
+  --elecric-violet: #4776e6;
+  --color-gainsboro: #e6e6e6;
+  --color-dodgerblue: #618fff;
+
+  /* Gaps */
+  --gap-lg: 18px;
+  --gap-2xl: 21px;
+
+  /* Paddings */
+  --padding-25xl: 44px;
+  --padding-12xs: 1px;
+  --padding-11xs: 2px;
+  --padding-5xs: 8px;
+  --padding-9xs: 4px;
+  --padding-10xs: 3px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-5xl: 24px;
+  --br-4xs-4: 8.4px;
+  --br-2xs: 11px;
+}

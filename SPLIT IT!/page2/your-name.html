@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./your-name.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Code Pro:wght@600;700&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "SF Pro Display";
+        src: url("../public/FontsFree-Net-SFProDisplay-Bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "The Next Font";
+        src: url("../public/TheNextFont.ttf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="your-name">
+      <img class="back-blue-icon1" alt="" src="../public/back-blue.svg" />
+
+      <div class="wrapper-saly-141">
+        <img
+          class="saly-14-icon1"
+          loading="eager"
+          alt=""
+          src="../public/saly141@2x.png"
+        />
+      </div>
+      <div class="text-frame-parent">
+        <div class="text-frame">
+          <div class="text" id="textContainer">
+            <h2 class="but-first-type" data-scroll-to="butFirstType">
+              but first, type
+            </h2>
+          </div>
+          <div class="it-text">
+            <b class="split1">Split</b>
+            <div class="view-bill-instance">
+              <div class="it2">
+                <span> </span>
+                <b class="it3">It.</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button2">
+          <button class="button3">
+            <input type = "text" placeholder="Your Name" class = "button4" id="input">
+          </button>
+        </div>
+      </div>
+      <div class="bill-view-instance">
+        <button class="view-bill" onclick="Next()">
+          <div class="button5">View Bill</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function Next(){
+        var valueBox = document.getElementById('input').value;
+        {
+          if(valueBox.trim()!==""){
+            window.location.href = "../page3/receipt-landing.html";
+          }
+          
+        }
+      }
+    </script>
+  </body>
+</html>

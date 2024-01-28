@@ -1,0 +1,116 @@
+.back-blue-icon {
+  width: 853.6px;
+  position: absolute;
+  margin: 0 !important;
+  right: -232.6px;
+  bottom: -125.1px;
+  height: 1058.1px;
+}
+.split {
+  margin: 0;
+  height: 119px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #8359e3, #4d74e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  z-index: 1;
+  
+}
+.it {
+  height: 119px;
+  position: absolute;
+  left: 70%;
+  down : 0%;
+  background: linear-gradient(180deg, #7860e4, #5671e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  z-index: 1;
+  font-size: inherit;
+  font-family: inherit;
+  
+}
+.saly-14-icon,
+.wrapper-saly-14 {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  z-index: 2;
+}
+.saly-14-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  top: -22px;
+  transform: scale(1.074);
+}
+.wrapper-saly-14 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button,
+.sally-component {
+  align-self: stretch;
+  display: flex;
+}
+.button {
+  border-radius: 24px;
+  background: linear-gradient(90deg, #4776e6, #8e54e9);
+  box-shadow: 0 5px 10px rgba(149, 149, 149, 0.2);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-12xs) var(--padding-12xs) 2px;
+  cursor: pointer;
+  z-index: 3;
+}
+.sally-component {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-25xl) 36px var(--padding-25xl) 14px;
+  position: relative;
+}
+.frames-container,
+.home-page-v2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frames-container {
+  align-self: stretch;
+  height: 595px;
+  flex-direction: row;
+  padding: 0 10px 0 32px;
+  text-align: left;
+  font-size: 24px;
+  font-family: var(--font-work-sans);
+}
+.home-page-v2 {
+  width: 100%;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 71px 35px 51px;
+  gap: 8px;
+  text-align: center;
+  font-size: var(--font-size-81xl);
+  color: var(--typography-off-white);
+  font-family: var(--font-sf-pro-display);
+}
