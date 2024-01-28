@@ -10,6 +10,7 @@ def form_checkbox(request):
         form = CheckBoxForm(request.POST or None)
 
         if form.is_valid():
+            
             print(form.cleaned_data)
     else:
         form = CheckBoxForm()
@@ -19,7 +20,21 @@ def form_checkbox(request):
     products = Product.objects.all()
     context['products'] = products
 
+    if request.POST:
+        if form.is_valid():
+            temp = form.cleaned_data.get("choices") 
+            print(temp) 
+
     return render(request, 'split/form_checkbox.html', context)
+
+
+##def product_view(request):
+
+  ##  products = Product.objects.all()
+
+    ## return render(request)
+
+
 
 # Print Output Sample
 # {'exec_summary': True, 'scope': False, 'isms': True, 'methodology': False, 'recommendation': False}

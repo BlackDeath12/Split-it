@@ -3,10 +3,12 @@
 {% block content %}
 
 <div style="border: 2px solid #000; text-align: center;">
-    <h1>This is the new body</h1>
-    <p>This is where you put stuff for your website</p>
+    <h1>Welcome to SplitIt!</h1>
+    <p style="text-align: center; width: 500px; margin: auto;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu mi bibendum neque egestas. At tempor commodo ullamcorper a lacus vestibulum sed arcu non. Vestibulum sed arcu non odio euismod. Tellus cras adipiscing enim eu. Vulputate mi sit amet mauris commodo quis imperdiet. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Nulla pharetra diam sit amet nisl suscipit. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Auctor urna nunc id cursus metus aliquam.
+    </p>
 
-    {{some_string}}
+    <!-- {{some_string}} -->
 
     {% for question in questions %}
         {% include 'personal/snippets/body_snippet.html' with value=question %}
